@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'PodRayburst_Example' do
+	pod 'PodRayburst', :path => '../'
+end

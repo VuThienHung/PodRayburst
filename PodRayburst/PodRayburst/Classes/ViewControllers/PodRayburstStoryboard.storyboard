@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Rayburst View Controller-->
+        <scene sceneID="QXO-H5-R5a">
+            <objects>
+                <viewController storyboardIdentifier="RayburstViewController" id="6qH-R0-gMr" customClass="RayburstViewController" customModule="PodRayburst" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="STM-bO-4Gl">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LSy-fK-858" customClass="RayburstPlayerView" customModule="PodRayburst" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="414" height="300"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="jto-ge-Jyr"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="LSy-fK-858" firstAttribute="top" secondItem="7JN-Wc-Buh" secondAttribute="top" id="Ur8-f1-OLR"/>
+                            <constraint firstAttribute="trailing" secondItem="LSy-fK-858" secondAttribute="trailing" id="ate-oc-xw6"/>
+                            <constraint firstItem="LSy-fK-858" firstAttribute="leading" secondItem="STM-bO-4Gl" secondAttribute="leading" id="pZb-Ne-RxS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="7JN-Wc-Buh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pK1-zb-p0W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-257.97101449275362" y="89.732142857142847"/>
+        </scene>
+    </scenes>
+</document>
