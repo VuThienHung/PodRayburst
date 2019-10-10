@@ -28,12 +28,12 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/VuThienHung/PodRayburst.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'PodRayburst/Classes/**/*'
+  s.source_files = 'PodRayburst/PodRayburst/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'PodRayburst' => ['PodRayburst/Assets/*.png']
+  #   'PodRayburst' => ['PodRayburst/PodRayburst/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
